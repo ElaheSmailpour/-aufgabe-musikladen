@@ -8,3 +8,6 @@ app.get("/user",(req,res,get)=>{
     res.send("hallo Eli!")
 })
 app.listen(3000,()=>console.log("server läuf!"))
+
+
+module.exports = app;
